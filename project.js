@@ -46,3 +46,19 @@ if(nameCheck === name){
         console.log("name is not a palindrome")
     
 }
+
+
+//5.
+let username = "teckwhiz"
+if(username.length >= 5 && username.length <= 15){
+    console.log("valid username")
+}else{
+    console.log("invalid username")
+}
+
+
+//6.
+let capitalName = "teckwhiz"
+let firstLetterToCapital = capitalName.charAt(0).toUpperCase()
+let remainingName = capitalName.slice(1)
+console.log(firstLetterToCapital.concat(remainingName))
