@@ -25,3 +25,24 @@ if(passwordFirstLetter && passwordLastLetter && passwordNumber){
         console.log("weak password")
     }
 
+
+//3.
+    let url = "https://www.google.com"
+    let urlCheck = url.startsWith("http://") || url.startsWith("https://")
+    if(urlCheck){
+        console.log("valid url")
+        }else{
+            console.log("invalid url")
+        }
+    
+
+//4.
+let name = "level"
+let nameCheck = name.split(",").reverse().join("")
+
+if(nameCheck === name){
+    console.log("name is a palindrome")
+    } else{
+        console.log("name is not a palindrome")
+    
+}
