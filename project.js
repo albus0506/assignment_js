@@ -62,3 +62,35 @@ let capitalName = "teckwhiz"
 let firstLetterToCapital = capitalName.charAt(0).toUpperCase()
 let remainingName = capitalName.slice(1)
 console.log(firstLetterToCapital.concat(remainingName))
+
+
+// //8.
+// let phone = "09134353647"
+// let remainingPhone = phone.slice(1)   
+// let country = "u"
+// let result = ""
+// let checks = phone.startsWith(0)
+// let checks2 = phone.length === 11
+// let checks3 = country
+
+// if(checks && checks2){
+//     if(checks3 === "Nigeria"){
+//         result = "+234".concat(remainingPhone)
+//     } else if(checks && checks2){
+//        if(checks === "ghana"){
+//         result = "+233".concat(remainingPhone)
+//        }else if(checks && checks2){
+//         if(checks === "USA"){
+//             result = "+1".concat(remainingPhone)
+//         }
+//        }
+//     }    
+//     else{
+//         console.log("input valid country")
+//     }
+// }
+// else{
+//     console.log("invalid phone number")
+// }
+
+// console.log(result)
