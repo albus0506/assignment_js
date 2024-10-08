@@ -1,12 +1,12 @@
-// //1.
-// let email = "khalidfowora74@mail.com"
-// let validEmail = email.trim().toLowerCase().indexOf("@")
-// let slicedEmail = email.slice(validEmail)
-// if(email.includes(slicedEmail)){
-//     console.log("email is valid")
-//     }else{
-//         console.log("invalid email")
-//     }
+//1.
+let email = "test@example.com"
+if(email.lastIndexOf(".") - email.indexOf("@") >= 2){
+    console.log("valid email!")
+    }else{
+        console.log("invalid email!")
+    }
+
+ 
 
 
 //  //2.
@@ -78,14 +78,13 @@ if(checks && checks2){
         result = "+234".concat(remainingPhone)
     } else if(checks3 === "ghana"){
         result = "+233".concat(remainingPhone)
-     }else if(checks3 === "USA"){
-            result = "+1".concat(remainingPhone)
-        }else{
-            console.log("input valid country")
-        }
-
-    }    
-    else{
+    }else if(checks3 === "USA"){
+        result = "+1".concat(remainingPhone)
+    }else{
+        console.log("input valid country")
+    }
+}    
+else{
     console.log("invalid phone number")
 }
 
